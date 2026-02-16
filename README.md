@@ -36,7 +36,7 @@
                 </p>
             </div>
             <div class="logo-placeholder">
-                <div class="cat-logo">CAT LOGO</div>
+                <div class="cat-logo">lesson04-mock3-sidebar-cat.jpg</div>
             </div>
         </section>
         
