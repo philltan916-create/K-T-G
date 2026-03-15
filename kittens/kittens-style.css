@@ -1,0 +1,123 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin:0;
+color:#333;
+line-height:1.6;
+}
+
+.container{
+width:1000px;
+margin:auto;
+}
+
+.hero{
+background:#3b97a8;
+color:white;
+padding:70px 0;
+}
+
+.hero h1{
+font-size:56px;
+margin:0;
+letter-spacing:2px;
+}
+
+.tagline{
+font-size:24px;
+margin-top:10px;
+font-style:italic;
+}
+
+.navbar{
+background:#d6d6d6;
+padding:15px 0;
+font-size:16px;
+}
+
+.navbar a{
+text-decoration:none;
+color:#333;
+margin:0 8px;
+}
+
+.navbar span{
+color:#777;
+}
+
+.layout{
+display:flex;
+gap:60px;
+padding:50px 0;
+}
+
+.main-content{
+flex:2;
+}
+
+.sidebar{
+flex:1;
+}
+
+.intro{
+color:#2aa1c0;
+font-size:22px;
+font-weight:bold;
+}
+
+.quote{
+color:#2aa1c0;
+font-size:20px;
+margin:40px 0;
+}
+
+h3{
+margin-top:40px;
+}
+
+.sidebar h4{
+margin-top:20px;
+}
+
+.sidebar img{
+width:100%;
+margin:15px 0;
+}
+
+a{
+color:#2aa1c0;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+.footer{
+background:#3a3a3a;
+color:white;
+text-align:center;
+padding:60px 20px;
+margin-top:40px;
+}
+
+.footer-logo{
+font-size:36px;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.footer-text{
+max-width:600px;
+margin:auto;
+margin-bottom:20px;
+color:#d6d6d6;
+}
+
+.footer-links{
+margin-bottom:20px;
+}
+
+.copyright{
+color:#bbb;
+font-size:14px;
+}
