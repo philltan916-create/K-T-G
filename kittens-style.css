@@ -5,6 +5,34 @@ color:#333;
 line-height:1.6;
 }
 
+.skip-link{
+    position:absolute;
+    left:-9999px;
+}
+
+.skip-link:focus{
+   left:20px;
+    top:20px;
+    background:black;
+    color:white;
+    padding:10px;
+    z-index:1000;
+}
+
+@media (max-width: 768px){
+    .layout{
+        flex-direction:column;
+    }
+    
+    .sidebar{
+        margin-top:40px;
+    }
+
+    .container{
+        width:90%;
+    }
+}
+
 .container{
 width:1000px;
 margin:auto;
