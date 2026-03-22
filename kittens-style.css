@@ -58,7 +58,7 @@ background:#3b97a8;
 color:white;
 padding:70px 0;
 background-image: 
-linear-gradient(rgba(0,0,0,0,5), rgba(0,0,0,0,5)),
+linear-gradient(to right rgba(59,151,168,0.95) 50%, rgba(255,255,255,0.9)),
 url(kitty-cat-paw-background.avif);
 background-size: cover;
 background-position: center;
