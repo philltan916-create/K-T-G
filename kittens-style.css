@@ -25,6 +25,9 @@ background-repeat: no-repeat;
 }
 
 @media (max-width: 768px){
+    body{
+        background-position: top;
+    }
     .hero h1{
         font-size:36px;
     }
