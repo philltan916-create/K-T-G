@@ -57,6 +57,7 @@ background-repeat: no-repeat;
 @media print {
     
     body{
+        margin: 0;
         background: white;
         color: black;
         font-size: 12pt;
@@ -83,6 +84,14 @@ background-repeat: no-repeat;
     
     *{
         background: none !important;
+    }
+
+    .hero,
+    .main-content,
+    section,
+    p{
+        margin:5px 0;
+        padding: 0;
     }
 }
 
