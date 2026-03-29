@@ -24,5 +24,12 @@ function displayCatOfTheWeek() {
     document.getElementById("cat-name").textContent = `– ${randomCat.name}`;
 }
 
+const button = document.getElementById("menu-toggle");
+const sidebar = document.getElementById("sidebar");
+
+button.addEventListener("click", () => {
+    sidebar.classList.toggle("active");
+});
+
 
 window.onload = displayCatOfTheWeek;
