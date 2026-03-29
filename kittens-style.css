@@ -24,7 +24,24 @@ background-repeat: no-repeat;
     z-index:1000;
 }
 
+#menu-toggle{
+    display:none;
+}
+
 @media (max-width: 768px){
+
+    #menu-toggle{
+        display: block;
+        margin: 20px;
+        padding: 10px 15px;
+        font-size: 18px;
+        background:#3b97a8;
+        color: white;
+        border: none;
+        cursor: pointer;
+
+    }
+
     body{
         background-position: top;
     }
@@ -39,14 +56,21 @@ background-repeat: no-repeat;
     .layout{
         flex-direction:column;
     }
-    
+
     .main-content{
         width: 100%;
     }
     
-     .sidebar{
+    .sidebar{
         padding-left:0;
         margin-top:40px;
+        display: none; 
+        background: #f4f4f4;
+        padding: 20px;
+    }
+
+    .sidebar.active{
+        display:block;
     }
 
     .container{
