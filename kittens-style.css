@@ -28,7 +28,7 @@ background-repeat: no-repeat;
     display:none;
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
 
     #menu-toggle{
         display: block;
@@ -62,15 +62,20 @@ background-repeat: no-repeat;
     }
     
     .sidebar{
-        padding-left:0;
-        margin-top:40px;
-        display: none; 
+        display:none;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 100%;
         background: #f4f4f4;
-        padding: 20px;
+        transition: right 0.3s ease;
+        z-index: 1000;
     }
 
     .sidebar.active{
         display:block;
+        right: 0;
     }
 
     .container{
@@ -178,6 +183,10 @@ flex:2;
 
 .sidebar{
 flex:1;
+position: static;   
+width: auto;
+height: auto;
+display: block;
 }
 
 .intro{
@@ -203,6 +212,7 @@ margin-top:20px;
 .sidebar img{
 width:100%;
 margin:15px 0;
+height: auto;
 }
 
 a{
