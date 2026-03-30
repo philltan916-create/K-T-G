@@ -62,7 +62,7 @@ background-repeat: no-repeat;
     }
     
     .sidebar{
-        display:none;
+        display:block;
         position: fixed;
         top: 0;
         right: -300px;
