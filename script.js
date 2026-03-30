@@ -30,8 +30,10 @@ const sidebar = document.getElementById("sidebar");
 button.addEventListener("click", () => {
     sidebar.classList.toggle("active");
 
-    const expanded = button.getAttribute("aria-expanded") === "true";
-    button.setAttribute("aria-expanded", !expanded);
+    const isOpen = sidebar.classList.toggle("active");
+    button.setAttribute("aria-expanded", isOpen);
+});
+
 });
 
 
