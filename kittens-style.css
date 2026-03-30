@@ -30,15 +30,9 @@ background-repeat: no-repeat;
 
 @media (max-width: 767px){
 
-    #menu-toggle{
+   #menu-toggle{
         display: block;
-        margin: 20px;
-        padding: 10px 15px;
-        font-size: 18px;
-        background:#3b97a8;
-        color: white;
-        border: none;
-        cursor: pointer;
+       
 
     }
 
@@ -62,7 +56,7 @@ background-repeat: no-repeat;
     }
     
     .sidebar{
-        display:block;
+        
         position: fixed;
         top: 0;
         right: -300px;
@@ -71,6 +65,7 @@ background-repeat: no-repeat;
         background: #f4f4f4;
         transition: right 0.3s ease;
         z-index: 1000;
+        display: block;
     }
 
     .sidebar.active{
@@ -182,10 +177,7 @@ flex:2;
 
 .sidebar{
 flex:1;
-position: static;   
-width: auto;
-height: auto;
-display: block;
+
 }
 
 .intro{
